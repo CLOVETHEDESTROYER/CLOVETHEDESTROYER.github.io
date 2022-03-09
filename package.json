@@ -1,4 +1,5 @@
 {
+  "homepage": "https://CLOVETHEDESTROYER.github.io",
   "name": "PopFizz_nft_minting_dapp",
   "version": "1.0.0",
   "description": "Pop Fizz Paleta Pals are now minting and were the sweetest and coolest NFT's in the game.",
@@ -23,6 +24,8 @@
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build"
   },
   "browserslist": {
